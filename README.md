@@ -13,25 +13,19 @@ Welche Sachen kann man bis jetzt programmieren?
 
 Bis jetzt (02.07.2024) folgende Befehle:
 
-- include (use in) #vls/dotLibary/standarts  -- Nutzt die Standart Bibliothek von VLS offline
-- include (use out) #vls/dotLibary/standarts -- Nutzt die Standart Bibliothek von VLS online
-//Ab jetzt schreibe ich nur noch in, out geht aber bei jedem "include" Befehl//
-- include (use in) #vls/dotLibary/extraAssets -- Nutzt die speziellen (Extra) Funktionen von VLS
-- include (use in) #vls/programmStat/Tasker -- Nutzt den Tasker von der "programmStat" Libary von VLS
-- print_s ("Irgendein Text, bla bla bla...") -- Schreibt einen String (Text in den Klammern) in die Konsole
-- print_i ("1234") -- Schreibt einen int (Zahlen) in die Konsole
-- print_b (isGrounded) -- Schreibt den Wert eines Boolean (Name des Booleans in die Klammern schreiben) in die Konsole
-- text -Hinter den Strich kommt die ID des Objects ("Hier kommt der Text") -- Ändert den Text des Objects das angegeben wurde zu dem Text in den Klammern
-- text+ -ID ("Text") -- Fügt zum Text im Object einen Text hinzu
-- number -ID ("Nummer") -- Ändert den Text zu einer Nummer (geht auch bei Nummern)
-- number+ -ID ("Nummer") -- Fügt dem Text eine Nummer hinzu
-- - close.tab (this) -- Schließt diesen Tab (Da "this" steht, schließ es diesen Tab, bei anderen bitte URL angeben
+- #include libs/standarts -- Nutzt die Standart Bibliothek von VLS
+- #include assets/extras -- Nutzt die speziellen (Extra) Funktionen von VLS
+- #include libs/programmStat/Tasker -- Nutzt den Tasker von der "programmStat" Libary von VLS
+- print_s("Irgendein Text, bla bla bla...") -- Schreibt einen String (Text in den Klammern) in die Konsole
+- print_n("1234") -- Schreibt einen Nummern in die Konsole
+- print_sn("Hallo, ich mag die Zahl 12...") -- Schreibt Strings und Ints in die Konsole
+- close.tab (this) -- Schließt diesen Tab (Da "this" steht, schließ es diesen Tab, bei anderen bitte URL angeben
 - close.tab (URL) -- Schließt den offenen Tab, der diese URL hat.
 - close -- Schließt das komplette Fenster (Seite)
 
   Das sind alle Befehle bis jetzt!
 
-  Tutorials: (URL)
+  Tutorials: (Noch nicht vorhanden, kommen vielleicht irgendwann...)
 
   Lizensen:
 

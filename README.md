@@ -15,7 +15,7 @@ Bis jetzt (02.07.2024) folgende Befehle:
 
 - #include libs/standarts -- Nutzt die Standart Bibliothek von VLS
 - #include assets/extras -- Nutzt die speziellen (Extra) Funktionen von VLS
-- #include libs/programmStat/Tasker -- Nutzt den Tasker von der "programmStat" Libary von VLS
+- #include libs/programmStat/Tasker -- Nutzt den Tasker von der "programmStat" Libary von VLS (Befehl existiert doch nicht!!!)
 - print_s("Irgendein Text, bla bla bla...") -- Schreibt einen String (Text in den Klammern) in die Konsole
 - print_n("1234") -- Schreibt einen Nummern in die Konsole
 - print_sn("Hallo, ich mag die Zahl 12...") -- Schreibt Strings und Ints in die Konsole

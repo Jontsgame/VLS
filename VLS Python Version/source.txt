@@ -1,0 +1,3 @@
+#include vls/libs/standarts
+
+print_s("Hallo Welt!")

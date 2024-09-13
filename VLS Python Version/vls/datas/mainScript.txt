@@ -1,0 +1,9 @@
+#include vls/libs/standarts
+
+var name = "Jonathan"
+
+print_s(name)
+wait(5)
+print_n(2)
+wait(2) timeshow true
+print_sn("Ich bin 12 Jahre alt")
